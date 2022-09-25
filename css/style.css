@@ -15,7 +15,7 @@ body {
   text-align: center;
 }
 .container {
-  height: 100%;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -24,6 +24,7 @@ body {
 @media (max-width: 500px) {
   .container {
     padding: 0 25px !important;
+    height: 98vh;
   }
 }
 
