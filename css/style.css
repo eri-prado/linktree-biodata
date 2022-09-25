@@ -7,7 +7,7 @@ body {
     #006e8f,
     #1a5579
   );
-  height: 100vh;
+  height: 100%;
   overflow: hidden;
   font-family: 'Inter', sans-serif;
   font-size: 0.875rem !important;
