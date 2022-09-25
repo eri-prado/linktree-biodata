@@ -24,9 +24,9 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>Biodata Sistema</title>
   </head>
-  <body>
+  <body id="body" style="opacity: 0">
     <div class="container">
-      <div class="header">
+      <div class="header" data-anime="left">
         <img
           src="img/logo-insta.svg"
           class="m-3"
@@ -73,7 +73,10 @@
         <br />
       </div>
 
-      <div class="d-flex gap-3 justify-content-center social-media">
+      <div
+        class="d-flex gap-3 justify-content-center social-media"
+        data-anime="top"
+      >
         <a
           href="https://api.whatsapp.com/send?phone=5598991011177"
           target="_blank"
@@ -87,7 +90,7 @@
         >
       </div>
 
-      <div class="footer">
+      <div class="footer" data-anime="top">
         <hr />
         <p>
           © <span class="year"></span> Biodata Sistema | Todos os direitos
@@ -100,10 +103,6 @@
       integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
       crossorigin="anonymous"
     ></script>
-    <script>
-      const currentYear = new Date();
-      const yearFooter = document.querySelector('.year');
-      yearFooter.innerText = currentYear.getFullYear();
-    </script>
+    <script src="js/script.js"></script>
   </body>
 </html>
