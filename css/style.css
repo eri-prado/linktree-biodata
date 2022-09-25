@@ -34,6 +34,11 @@ body {
   margin-top: 20px;
 }
 
+.buttons {
+  display: flex;
+  flex-direction: column;
+}
+
 .button {
   font-size: 0.875rem !important;
   font-weight: 600 !important;
