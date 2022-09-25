@@ -1,0 +1,2 @@
+# linktree
+ A simple linktree
